@@ -10,9 +10,9 @@
   <script type="text/javascript">
     // REMEMBER TO CREATE AN ACCOUNT WITH TOKBOX AND THEN POPULATE YOUR API_KEY, SESSION_ID, AND TOKEN IN THIS CODE
     // Initialize session, set up event listeners, and connect
-    var session = OT.initSession('45764862', '2_MX40NTc2NDg2Mn5-MTQ4NjYzMDM4MTg0Mn5lY2pnRE5FREJDRnJsTzNaN2FQaWc3eGh-fg');
+    var session = OT.initSession("45764862", "2_MX40NTc2NDg2Mn5-MTQ4NjYzMDM4MTg0Mn5lY2pnRE5FREJDRnJsTzNaN2FQaWc3eGh-fg");
     // Connect to our session and publish our feed
-    session.connect('T1==cGFydG5lcl9pZD00NTc2NDg2MiZzaWc9MmYwYWU4YzRjNGUzN2MyODM5NjZlOWMzZmY5YzAzZjZjMGViYjFlMjpzZXNzaW9uX2lkPTJfTVg0ME5UYzJORGcyTW41LU1UUTROall6TURNNE1UZzBNbjVsWTJwblJFNUZSRUpEUm5Kc1R6TmFOMkZRYVdjM2VHaC1mZyZjcmVhdGVfdGltZT0xNDg2NjMwNDIxJm5vbmNlPTAuOTUzNTg3NTQ4NTU4OTU4OSZyb2xlPXB1Ymxpc2hlciZleHBpcmVfdGltZT0xNDg2NjUyMDE5', function(error) {
+    session.connect("T1==cGFydG5lcl9pZD00NTc2NDg2MiZzaWc9MmYwYWU4YzRjNGUzN2MyODM5NjZlOWMzZmY5YzAzZjZjMGViYjFlMjpzZXNzaW9uX2lkPTJfTVg0ME5UYzJORGcyTW41LU1UUTROall6TURNNE1UZzBNbjVsWTJwblJFNUZSRUpEUm5Kc1R6TmFOMkZRYVdjM2VHaC1mZyZjcmVhdGVfdGltZT0xNDg2NjMwNDIxJm5vbmNlPTAuOTUzNTg3NTQ4NTU4OTU4OSZyb2xlPXB1Ymxpc2hlciZleHBpcmVfdGltZT0xNDg2NjUyMDE5", function(error) {
       publisher = OT.initPublisher( "publisher");
       session.publish(publisher);
     });
