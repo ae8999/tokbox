@@ -1,0 +1,7 @@
+{
+  "name": "node-ejs",
+  "main": "index.ejs",
+  "dependencies": {
+    "ejs": "^1.0.0"
+  }
+}
